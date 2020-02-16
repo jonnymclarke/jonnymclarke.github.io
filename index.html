@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>JC GANTT 2020</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="d2af4c3c-4f27-49a6-8d71-385e45b2ff34"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="7765">
+          {"cfe1e417-4656-45a5-a45a-87bcc9e78453":{"roots":{"references":[{"attributes":{},"id":"7701","type":"BasicTickFormatter"},{"attributes":{},"id":"7703","type":"BasicTickFormatter"},{"attributes":{"callback":null,"end":220},"id":"7669","type":"Range1d"},{"attributes":{},"id":"7678","type":"BasicTicker"},{"attributes":{"items":[{"id":"7706","type":"LegendItem"}],"location":"bottom_left","plot":{"id":"7668","subtype":"Figure","type":"Plot"}},"id":"7705","type":"Legend"},{"attributes":{"callback":null},"id":"7671","type":"DataRange1d"},{"attributes":{"plot":{"id":"7668","subtype":"Figure","type":"Plot"},"text":"Gantt Chart for January to June 2020","text_font_size":{"value":"16pt"}},"id":"7691","type":"Title"},{"attributes":{"source":{"id":"7692","type":"ColumnDataSource"}},"id":"7698","type":"CDSView"},{"attributes":{},"id":"7683","type":"BasicTicker"},{"attributes":{"label":{"field":"Category"},"renderers":[{"id":"7697","type":"GlyphRenderer"}]},"id":"7706","type":"LegendItem"},{"attributes":{},"id":"7673","type":"LinearScale"},{"attributes":{"ticks":[0,7,14,21,28,35,42,49,56,63,70,77,84,91,98,105,112,119,126,133,140,147,154,161,168,175,182,189,196,203,210,217]},"id":"7707","type":"FixedTicker"},{"attributes":{"axis_label":"Days","formatter":{"id":"7701","type":"BasicTickFormatter"},"plot":{"id":"7668","subtype":"Figure","type":"Plot"},"ticker":{"id":"7707","type":"FixedTicker"}},"id":"7677","type":"LinearAxis"},{"attributes":{"callback":null,"tooltips":[["Process","@Process"],["Start","@{Start Date}"],["Duration","@{Duration} Days"],["Category","@{Category}"]]},"id":"7687","type":"HoverTool"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"7668","subtype":"Figure","type":"Plot"},"ticker":{"id":"7678","type":"BasicTicker"}},"id":"7681","type":"Grid"},{"attributes":{"above":[{"id":"7690","type":"Title"},{"id":"7691","type":"Title"}],"below":[{"id":"7677","type":"LinearAxis"}],"left":[{"id":"7682","type":"LinearAxis"}],"outline_line_color":{"value":null},"plot_height":750,"plot_width":1000,"renderers":[{"id":"7677","type":"LinearAxis"},{"id":"7681","type":"Grid"},{"id":"7682","type":"LinearAxis"},{"id":"7686","type":"Grid"},{"id":"7690","type":"Title"},{"id":"7691","type":"Title"},{"id":"7705","type":"Legend"},{"id":"7697","type":"GlyphRenderer"}],"title":{"id":"7700","type":"Title"},"toolbar":{"id":"7688","type":"Toolbar"},"toolbar_location":"above","x_range":{"id":"7669","type":"Range1d"},"x_scale":{"id":"7673","type":"LinearScale"},"y_range":{"id":"7671","type":"DataRange1d"},"y_scale":{"id":"7675","type":"LinearScale"}},"id":"7668","subtype":"Figure","type":"Plot"},{"attributes":{"plot":null,"text":""},"id":"7700","type":"Title"},{"attributes":{"data_source":{"id":"7692","type":"ColumnDataSource"},"glyph":{"id":"7695","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"7696","type":"HBar"},"selection_glyph":null,"view":{"id":"7698","type":"CDSView"}},"id":"7697","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"7687","type":"HoverTool"}]},"id":"7688","type":"Toolbar"},{"attributes":{},"id":"7715","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"field":"Role"},"fill_color":{"field":"COLOR"},"height":{"value":0.5},"left":{"field":"Start Days"},"line_alpha":{"field":"Role"},"line_color":{"field":"COLOR"},"right":{"field":"End Days"},"y":{"field":"index"}},"id":"7695","type":"HBar"},{"attributes":{},"id":"7714","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.5},"left":{"field":"Start Days"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"End Days"},"y":{"field":"index"}},"id":"7696","type":"HBar"},{"attributes":{"callback":null,"data":{"COLOR":["#F28E2B","#E15759","#F28E2B","#E15759","#E15759","#8CD17D","#4E79A7","#F28E2B","#F28E2B","#4E79A7","#E15759","#E15759","#4E79A7","#E15759","#4E79A7","#8CD17D","#4E79A7","#4E79A7","#4E79A7","#4E79A7","#4E79A7","#4E79A7","#F28E2B","#8CD17D","#4E79A7","#E15759","#E15759","#8CD17D","#4E79A7","#4E79A7","#4E79A7","#8CD17D","#4E79A7","#4E79A7","#E15759","#F28E2B","#F28E2B","#4E79A7","#4E79A7"],"Category":["PhD Extensions","Supervision","PhD Extensions","Supervision","Supervision","Project","Papers","PhD Extensions","PhD Extensions","Papers","Supervision","Supervision","Papers","Supervision","Papers","Project","Papers","Papers","Papers","Papers","Papers","Papers","PhD Extensions","Project","Papers","Supervision","Supervision","Project","Papers","Papers","Papers","Project","Papers","Papers","Supervision","PhD Extensions","PhD Extensions","Papers","Papers"],"Duration":[336,112,84,112,112,168,14,84,84,14,168,168,7,168,14,168,7,7,56,56,14,7,112,168,7,112,112,168,56,56,7,35,28,28,875,84,84,56,28],"Duration Days":{"__ndarray__":"AAAAAGMJG0IAAAAAQgYCQgAAAABjCftBAAAAAEIGAkIAAAAAQgYCQgAAAABjCQtCAAAAAEIG0kEAAAAAYwn7QQAAAABjCftBAAAAAEIG0kEAAAAAYwkLQgAAAABjCQtCAAAAAEIGwkEAAAAAYwkLQgAAAABCBtJBAAAAAGMJC0IAAAAAQgbCQQAAAABCBsJBAAAAAEIG8kEAAAAAQgbyQQAAAABCBtJBAAAAAEIGwkEAAAAAQgYCQgAAAABjCQtCAAAAAEIGwkEAAAAAQgYCQgAAAABCBgJCAAAAAGMJC0IAAAAAQgbyQQAAAABCBvJBAAAAAEIGwkEAAACA0ofmQQAAAABCBuJBAAAAAEIG4kEAAAB0HJoxQgAAAABjCftBAAAAAGMJ+0EAAAAAQgbyQQAAAABCBuJB","dtype":"float64","shape":[39]},"End Datetime":{"__ndarray__":"AABAYZSUd0IAAMADHUR3QgAAwOIZO3dCAADAAx1Ed0IAAMADHUR3QgAAgH3iU3dCAAAAJ04Zd0IAAABpVCt3QgAAAGlUK3dCAABAzosSd0IAAIA73EF3QgAAgDvcQXdCAADAPQoOd0IAAIA73EF3QgAAwD0KDndCAABAc5s/d0IAAECtiAl3QgAAAOVHB3dCAADAXg0Xd0IAAMBeDRd3QgAAAOVHB3dCAADAHAcFd0IAAEAQkiR3QgAAQFKYNndCAACAVMYCd0IAAABIUSJ3QgAAAEhRIndCAAAAilc0d0IAAAAGSxB3QgAAAAZLEHdCAABAjIUAd0IAAADlRwd3QgAAwBwHBXdCAADAHAcFd0IAAADDpRV4QgAAwF4NF3dCAADAXg0Xd0IAAMA9Cg53QgAAwBwHBXdC","dtype":"float64","shape":[39]},"End Days":[494,244,216,244,244,293,111,167,167,90,237,237,76,237,76,230,62,55,104,104,55,48,146,202,41,139,139,195,83,83,34,55,48,48,895,104,104,76,48],"Process":["WSIC Cross Sector Integration","DF MSc 2 (MSc)","Economic Consequences of Fragmentation","Alex Capstick (MSc)","DF MSc 1 (MSc)","Cybersecurity","IHT policy paper","Random Forest V2","Demand Redistribution ","IHT methods paper","CHP MSc 3 (MSc)","Sabrina Kamayah (MSc)","ML demand prediction paper","CHP MSc 2 (MSc)","Chelsea paper","France/Nigeria/SA","HHI paper","EHR algorithm paper","PS - Cancer","PS - Transplant","Rota paper","Catchments paper","Qualitative Correlates of Networks","Shout!","ANS paper","Amelia Golestaneh (BSc)","Richu Philip (BSc)","Chelsea Catchments","Guidelines representation paper","Guidelines asthma paper","SEFI paper","IFOW","DCT - EHR use paper","DCT - clinicians paper","Edmond (PhD)","Bundle PhD Code into Git","Visualisation of Findings","Vanguard paper","DCT - patients paper"],"Role":{"__ndarray__":"AAAAAAAA8D+amZmZmZnZP5qZmZmZmdk/AAAAAAAA8D+amZmZmZnZP5qZmZmZmdk/mpmZmZmZ2T8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D+amZmZmZnZP5qZmZmZmdk/AAAAAAAA8D+amZmZmZnZP5qZmZmZmdk/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/mpmZmZmZ2T+amZmZmZnZP5qZmZmZmdk/AAAAAAAA8D8AAAAAAADwP5qZmZmZmdk/AAAAAAAA8D8AAAAAAADwP5qZmZmZmdk/mpmZmZmZ2T+amZmZmZnZP5qZmZmZmdk/AAAAAAAA8D8AAAAAAADwP5qZmZmZmdk/mpmZmZmZ2T8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D+amZmZmZnZP5qZmZmZmdk/","dtype":"float64","shape":[39]},"Start Date":["06/06/2020","11/05/2020","11/05/2020","11/05/2020","11/05/2020","04/05/2020","06/04/2020","23/03/2020","23/03/2020","16/03/2020","09/03/2020","09/03/2020","09/03/2020","09/03/2020","02/03/2020","02/03/2020","24/02/2020","17/02/2020","17/02/2020","17/02/2020","10/02/2020","10/02/2020","03/02/2020","03/02/2020","03/02/2020","27/01/2020","27/01/2020","27/01/2020","27/01/2020","27/01/2020","27/01/2020","20/01/2020","20/01/2020","20/01/2020","20/01/2020","20/01/2020","20/01/2020","20/01/2020","20/01/2020"],"Start Datetime":{"__ndarray__":"AABA1W4od0IAAMB/ECB3QgAAwH8QIHdCAADAfxAgd0IAAMB/ECB3QgAAgLfPHXdCAACAlswUd0IAAAAGSxB3QgAAAAZLEHdCAADAPQoOd0IAAIB1yQt3QgAAgHXJC3dCAACAdckLd0IAAIB1yQt3QgAAQK2ICXdCAABArYgJd0IAAADlRwd3QgAAwBwHBXdCAADAHAcFd0IAAMAcBwV3QgAAgFTGAndCAACAVMYCd0IAAECMhQB3QgAAQIyFAHdCAABAjIUAd0IAAADERP52QgAAAMRE/nZCAAAAxET+dkIAAADERP52QgAAAMRE/nZCAAAAxET+dkIAAMD7A/x2QgAAwPsD/HZCAADA+wP8dkIAAMD7A/x2QgAAwPsD/HZCAADA+wP8dkIAAMD7A/x2QgAAwPsD/HZC","dtype":"float64","shape":[39]},"Start Days":[158,132,132,132,132,125,97,83,83,76,69,69,69,69,62,62,55,48,48,48,41,41,34,34,34,27,27,27,27,27,27,20,20,20,20,20,20,20,20],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38]},"selected":{"id":"7714","type":"Selection"},"selection_policy":{"id":"7715","type":"UnionRenderers"}},"id":"7692","type":"ColumnDataSource"},{"attributes":{"dimension":1,"grid_line_color":{"value":null},"plot":{"id":"7668","subtype":"Figure","type":"Plot"},"ticker":{"id":"7683","type":"BasicTicker"}},"id":"7686","type":"Grid"},{"attributes":{"plot":{"id":"7668","subtype":"Figure","type":"Plot"},"text":"Pale colours indicate secondary contribution","text_font_style":"italic"},"id":"7690","type":"Title"},{"attributes":{"formatter":{"id":"7703","type":"BasicTickFormatter"},"major_label_text_font_size":{"value":"0pt"},"major_tick_line_color":{"value":null},"minor_tick_line_color":{"value":null},"plot":{"id":"7668","subtype":"Figure","type":"Plot"},"ticker":{"id":"7683","type":"BasicTicker"}},"id":"7682","type":"LinearAxis"},{"attributes":{},"id":"7675","type":"LinearScale"}],"root_ids":["7668"]},"title":"Bokeh Application","version":"1.0.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('7765').textContent;
+                  var render_items = [{"docid":"cfe1e417-4656-45a5-a45a-87bcc9e78453","roots":{"7668":"d2af4c3c-4f27-49a6-8d71-385e45b2ff34"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
